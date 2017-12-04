@@ -3,6 +3,7 @@
   <process name="helloworld:HelloWorld">
     <active>true</active>
     <retired>false</retired>
+    
     <process-events generate="all"/>
     <provide partnerLink="client">
       <service name="helloworld:HelloWorldService" port="HelloPort"/>
